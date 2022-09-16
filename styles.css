@@ -49,11 +49,11 @@ body{
     border: 1.5px solid #1BA0AB;
 }
 .welcome{
-    display: grid;
+    /* display: grid; */
+    display: none;
     grid-template-columns: 50% 50%;
     align-items: center;
     height: 660px;
-    /* border: 2px solid black; */
 }
 
 .welcome__text--big{
@@ -66,12 +66,17 @@ body{
 .welcome label{
     display: block;
 }
-.welcome__text--muted{
+.welcome__text--muted, .doctor__text--muted{
     font-weight: 400;
     font-size: 20px;
     color: #737373;
     padding: 20px 0px;
 }
+
+.doctor__text--muted{
+    font-size: 16px;
+}
+
 .welcome__text--blue{
     color: #1BA0AB;
     font-weight: 700;
@@ -79,3 +84,63 @@ body{
     padding-bottom: 25px;
     font-size: 16px;
 }
+
+
+.doctor{
+    padding: 80px;
+    /* display: grid; */
+    display: none;
+    grid-template-columns: 60% 40%;
+}
+.doctor__text{
+    display: grid;
+    align-items: center;
+    padding:80px;
+
+
+}
+.doctor__hr{
+    width: 90px;
+    height: 6px;
+    border: none;
+    margin-left: 0px;
+    background: #E74040;
+    margin: 30px 5px;
+}
+.doctor__text--big
+{
+    font-size: 28px;
+    
+}
+.text--padded{
+    padding: 12px 0px;
+}
+.doctor__text--muted{
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.3px;
+    color: #737373;
+}
+.doctor__image{
+    display: grid;
+    justify-items: right;
+}
+
+.teams{
+    padding: 0px 150px;
+}
+
+.teams__text{
+    width: 50%;
+    border: 2px solid black;
+    
+}
+.teams__text label{
+    display: block;
+}
+.teams_images{
+    display: flex;
+    flex-direction: row;    
+    padding: 60px;
+}
+
