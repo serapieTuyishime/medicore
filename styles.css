@@ -68,14 +68,14 @@ body{
 .welcome label{
     display: block;
 }
-.welcome__text--muted, .doctor__text--muted{
+.welcome__text--muted, .content__text--muted{
     font-weight: 400;
     font-size: 20px;
     color: #737373;
     padding: 20px 0px;
 }
 
-.doctor__text--muted{
+.content__text--muted{
     font-size: 16px;
 }
 
@@ -88,19 +88,19 @@ body{
 }
 
 
-.doctor{
+.content{
     padding: 80px;
     display: grid;
     grid-template-columns: 60% 40%;
 }
-.doctor__text{
+.content__text{
     display: grid;
     align-items: center;
     padding:80px;
 
 
 }
-.doctor__hr{
+.content__hr{
     width: 90px;
     height: 6px;
     border: none;
@@ -108,7 +108,7 @@ body{
     background: #E74040;
     margin: 30px 5px;
 }
-.doctor__text--big
+.content__text--big
 {
     font-size: 28px;
     
@@ -123,13 +123,13 @@ body{
 .text--muted{
     color: #737373;
 }
-.doctor__text--muted{
+.content__text--muted{
     font-weight: 400;
     font-size: 14px;
     letter-spacing: 0.3px;
     color: #737373;
 }
-.doctor__image{
+.content__image{
     display: grid;
     justify-items: right;
 }
@@ -275,24 +275,24 @@ body{
     .welcome__buttons{
         display: none;
     }
-    .doctor{
+    .content{
         padding: 0;
         margin-top: 30px;
         grid-template-columns: 40% 60%;
         gap:0;
 
     }
-    .doctor__image{
+    .content__image{
         justify-items: left;
         margin: 0;
         width: 100%;
         height: 100%;
     }
-    .doctor__image--1{
+    .content__image--1{
         width: 100%;
         height: 100%;
     }
-    .doctor__text{
+    .content__text{
         padding: 0px;
         align-items: top;
     }
