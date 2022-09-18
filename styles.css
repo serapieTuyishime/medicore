@@ -1,7 +1,7 @@
 body{
     font-family:'Montserrat', sans-serif;
 }
-.section--pink{
+.header{
     padding: 0px 120px;
     background-color: #FFF5F0;
 }
@@ -11,7 +11,6 @@ body{
     display: grid;
     grid-template-columns: 30% 42% 28%;
     font-weight: 700;
-    /* font-family:Montserrat; */
     align-items: center;
 }
 
@@ -44,11 +43,11 @@ body{
 .button--uppercase{
     text-transform: uppercase;
 }
-.button--blue{
+.button--background{
     background-color: #1BA0AB;
     color:white;
 }
-.button--border{
+.button--outline{
     border: 1.5px solid #1BA0AB;
 }
 .welcome{
@@ -113,7 +112,7 @@ body{
     font-size: 28px;
     
 }
-.text--padded{
+.welcome__text--padded{
     padding: 12px 0px;
 }
 .text--bold{
@@ -241,7 +240,7 @@ body{
     body{
         background-color: #FFF5F0;
     }
-    .section--pink{
+    .header{
         padding: 30px 5px;
     }
     .menu-bar{
@@ -260,7 +259,7 @@ body{
         font-size: 25px;
         line-height: 35px;
     }
-    .text--padded{
+    .welcome__text--padded{
         padding: 3px 0px;
     }
     .welcome__text--big-in-sm{
@@ -268,7 +267,7 @@ body{
         font-size: 40px;
         line-height: 55px;
     }
-    .section--pink{
+    .header{
         padding: 30px 10px;
         height: 250px;
     }
